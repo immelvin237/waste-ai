@@ -2,7 +2,10 @@
 __pycache__/
 *.pyc
 dataset/
+dataset-resized/
+dataset_resized/
 shots/
 model.pth
 waste.db
 sync.log
+waste-ai-clean/
