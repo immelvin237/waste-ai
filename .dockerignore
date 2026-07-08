@@ -1,0 +1,10 @@
+﻿.venv
+__pycache__
+*.pyc
+dataset
+dataset-resized
+shots
+waste.db
+model.pth
+.git
+waste-ai-clean
