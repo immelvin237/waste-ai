@@ -1,0 +1,73 @@
+{
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "best_val_acc": 0.854,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.571,
+      "val_acc": 0.759
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.723,
+      "val_acc": 0.801
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.757,
+      "val_acc": 0.822
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.768,
+      "val_acc": 0.822
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.788,
+      "val_acc": 0.825
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.796,
+      "val_acc": 0.833
+    },
+    {
+      "epoch": 7,
+      "train_acc": 0.795,
+      "val_acc": 0.849
+    },
+    {
+      "epoch": 8,
+      "train_acc": 0.809,
+      "val_acc": 0.838
+    },
+    {
+      "epoch": 9,
+      "train_acc": 0.801,
+      "val_acc": 0.854
+    },
+    {
+      "epoch": 10,
+      "train_acc": 0.796,
+      "val_acc": 0.83
+    },
+    {
+      "epoch": 11,
+      "train_acc": 0.831,
+      "val_acc": 0.844
+    },
+    {
+      "epoch": 12,
+      "train_acc": 0.821,
+      "val_acc": 0.849
+    }
+  ]
+}

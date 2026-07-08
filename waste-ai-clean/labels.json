@@ -1,0 +1,35 @@
+{
+  "active": "hospital",
+  "profiles": {
+    "hospital": {
+      "name": "Hospital Waste",
+      "classes": [
+        "DASRI",
+        "DAOM",
+        "Recyclable"
+      ],
+      "colors": {
+        "DASRI": "#f5c518",
+        "DAOM": "#8a8f98",
+        "Recyclable": "#2e9e5b"
+      },
+      "alert": [
+        "DASRI"
+      ]
+    },
+    "brewery": {
+      "name": "Brewery Waste",
+      "classes": [
+        "Glass",
+        "Can",
+        "Cardboard"
+      ],
+      "colors": {
+        "Glass": "#2e9e5b",
+        "Can": "#5b9bd5",
+        "Cardboard": "#c9873a"
+      },
+      "alert": []
+    }
+  }
+}

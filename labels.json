@@ -1,0 +1,20 @@
+{
+  "active": "hospital",
+  "profiles": {
+    "hospital": {
+      "name": "Recyclable Waste",
+      "classes": ["cardboard", "glass", "metal", "paper", "plastic", "trash"],
+      "colors": {
+        "cardboard": "#c9873a", "glass": "#2e9e5b", "metal": "#8a8f98",
+        "paper": "#5b9bd5", "plastic": "#f5c518", "trash": "#6b6f76"
+      },
+      "alert": ["trash"]
+    },
+    "brewery": {
+      "name": "Brewery Waste",
+      "classes": ["Glass", "Can", "Cardboard"],
+      "colors": { "Glass": "#2e9e5b", "Can": "#5b9bd5", "Cardboard": "#c9873a" },
+      "alert": []
+    }
+  }
+}
