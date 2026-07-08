@@ -118,8 +118,9 @@ def set_mode(m: ModeIn):
     return {"mode": m.mode}
 
 
-app.mount("/static", StaticFiles(directory=os.path.join(ROOT, "app", "static")), name="static")
-
+_static = os.path.join(ROOT, "app", "static")
+if os.path.isdir(_static):
+    app.mount("/static", StaticFiles(directory=_static), name="static")
 
 @app.get("/")
 def index():
